@@ -19,7 +19,7 @@ module.exports = {
             {name: 'Prefix', value: 'Shows you what the prefix is!'},
             {name: 'Info', value: 'Info about bot'},
             {name: 'Clear', value: 'This will clear 1-100 messages in the channel you use it in '},
-            {name: 'mcstatus', value: 'This will give you info on a minecraft server, put [server ip] then [server port]'}
+            {name: 'llear', value: 'This will clear 1-100 messages in the channel you use it in '},
         )
         .setFooter('Thanks for looking at the commands!');
     
