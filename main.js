@@ -59,7 +59,8 @@ client.on('message', message =>{
         client.commands.get('clear').execute(message, args);
     }  else if(command === 'mcserver'){
         client.commands.get('mcserver').execute(client, message, args, Discord)
-    }
+    }  else if(command === 'reactionrole'){
+        client.commands.get('reactionrole').execute(client, message, args, Discord)
 
 
 });
