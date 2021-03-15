@@ -12,13 +12,13 @@ module.exports = {
         const Antarctican = message.guild.roles.cache.find(role => role.name === "Antartican");
  
 
-        const NorthAmericanEmoji = ':a:';
-        const SouthAmericanEmoji = ':b:';
-        const EuropeanEmoji = ':c:';
-        const AsianEmoji = ':d:';
-        const AfricanEmoji = ':e:';
-        const OceanicEmoji = ':f:';
-        const AntarcticanEmoji = ':g:';
+        const NorthAmericanEmoji = ':regional_indicator_a:';
+        const SouthAmericanEmoji = ':regional_indicator_b:';
+        const EuropeanEmoji = ':regional_indicator_c:';
+        const AsianEmoji = ':regional_indicator_d:';
+        const AfricanEmoji = ':regional_indicator_e:';
+        const OceanicEmoji = ':regional_indicator_f:';
+        const AntarcticanEmoji = ':regional_indicator_g:';
  
         let embed = new Discord.MessageEmbed()
             .setColor('#e42643')
