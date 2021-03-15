@@ -3,13 +3,13 @@ module.exports = {
     description: "Sets up a reaction role message!",
     async execute(message, args, Discord, client) {
         const channel = '820804774190514176';
-        const NorthAmerican = message.guild.roles.cache.find(role => role.name === "820806374669418537");
-        const SouthAmerican = message.guild.roles.cache.find(role => role.name === "820806463495864361");
-        const European = message.guild.roles.cache.find(role => role.name === "820806537391767552");
-        const Asian = message.guild.roles.cache.find(role => role.name === "820806606014251079");
-        const African = message.guild.roles.cache.find(role => role.name === "820806637458685962");
-        const Oceanic = message.guild.roles.cache.find(role => role.name === "820806693839437865");
-        const Antarctican = message.guild.roles.cache.find(role => role.name === "820806733470892053");
+        const NorthAmerican = message.guild.roles.cache.find(role => role.name === "North American");
+        const SouthAmerican = message.guild.roles.cache.find(role => role.name === "South American");
+        const European = message.guild.roles.cache.find(role => role.name === "European");
+        const Asian = message.guild.roles.cache.find(role => role.name === "Asian");
+        const African = message.guild.roles.cache.find(role => role.name === "African");
+        const Oceanic = message.guild.roles.cache.find(role => role.name === "Oceanic");
+        const Antarctican = message.guild.roles.cache.find(role => role.name === "Antarctican");
  
 
         const NorthAmericanEmoji = '🇦';
