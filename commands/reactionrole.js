@@ -24,13 +24,13 @@ module.exports = {
             .setColor('#e42643')
             .setTitle('React with what applys to you!')
             .setDescription('Choosing this will let other members know who you are and be appreciative of your timezones!'
-                 + `${NorthAmericanEmoji} for North American\n`
-                 + `${SouthAmericanEmoji} for South American`
-                 + `${EuropeanEmoji} for European`
-                 + `${AsianEmoji} for Asian`
-                 + `${AfricanEmoji} for African`
-                 + `${OceanicEmoji} for Oceanic`
-                 + `${AntarcticanEmoji} for Antarctican`);
+                 \n+ `${NorthAmericanEmoji} for North American\n`
+                 + `${SouthAmericanEmoji} for South American\n`
+                 + `${EuropeanEmoji} for European\n`
+                 + `${AsianEmoji} for Asian\n`
+                 + `${AfricanEmoji} for African\n`
+                 + `${OceanicEmoji} for Oceanic\n`
+                 + `${AntarcticanEmoji} for Antarctican\n`);
       
  
         let messageEmbed = await message.channel.send(embed);
