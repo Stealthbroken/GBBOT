@@ -61,8 +61,9 @@ client.on('message', message =>{
         client.commands.get('mcserver').execute(client, message, args, Discord)
     }  else if(command === 'reactionrole'){
         client.commands.get('reactionrole').execute(client, message, args, Discord, client)
+    }
 
 
-};
+});
  
 client.login('ODAxMTk5NTUzMTIyMjcxMzIy.YAdNOw.tzO2sYBW8vjWmVL4bM9sS9xNrro');
