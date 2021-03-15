@@ -86,25 +86,25 @@ module.exports = {
  
             if (reaction.message.channel.id == channel) {
                 if (reaction.emoji.name === NorthAmericanEmoji) {
-                    await reaction.message.guild.members.cache.get(user.id).roles.add(NorthAmerican);
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(NorthAmerican);
                   }
                 if (reaction.emoji.name === SouthAmericanEmoji) {
-                    await reaction.message.guild.members.cache.get(user.id).roles.add(SouthAmerican);
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(SouthAmerican);
                   }
                 if (reaction.emoji.name === EuropeanEmoji) {
-                    await reaction.message.guild.members.cache.get(user.id).roles.add(European);
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(European);
                   }
                 if (reaction.emoji.name === AsianEmoji) {
-                    await reaction.message.guild.members.cache.get(user.id).roles.add(Asian);
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(Asian);
                   }
                 if (reaction.emoji.name === AfricanEmoji) {
-                    await reaction.message.guild.members.cache.get(user.id).roles.add(African);
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(African);
                   }
                 if (reaction.emoji.name === OceanicEmoji) {
-                    await reaction.message.guild.members.cache.get(user.id).roles.add(Oceanic);
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(Oceanic);
                   }
                 if (reaction.emoji.name === AntarcticanEmoji) {
-                    await reaction.message.guild.members.cache.get(user.id).roles.add(Antarctican);
+                    await reaction.message.guild.members.cache.get(user.id).roles.remove(Antarctican);
                 }
             } else {
                 return;
