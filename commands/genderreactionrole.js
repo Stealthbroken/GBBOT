@@ -8,15 +8,15 @@ module.exports = {
         const AttackHelicopter = message.guild.roles.cache.find(role => role.name === "Attack Helicopter");
  
 
-        const BoyEmoji = '👧';
-        const GirlEmoji = '👦';
+        const GirlEmoji = '👧';
+        const BoyEmoji = '👦';
         const AttackHelicopterEmoji = '🚁';
 
  
         let embed = new Discord.MessageEmbed()
             .setColor('#e42643')
             .setTitle('React with what applys to you!')
-            .setDescription('Choosing this will let other members know what gender you are!\n'
+            .setDescription('Choosing this will let other members know who you are and be appreciative of your timezones!'
                  + `${BoyEmoji} If you're a boy\n`
                  + `${GirlEmoji} if you're a girl\n`
                  + `${AttackHelicopterEmoji} if you're an attack helicopter (lol)`);
