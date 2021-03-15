@@ -14,7 +14,7 @@ module.exports = {
 
         const NorthAmericanEmoji = '🇦';
         const SouthAmericanEmoji = '🇧';
-        const EuropeanEmoji = '🇧';
+        const EuropeanEmoji = '🇨';
         const AsianEmoji = '🇩';
         const AfricanEmoji = '🇪';
         const OceanicEmoji = '🇫';
@@ -22,8 +22,6 @@ module.exports = {
  
         let embed = new Discord.MessageEmbed()
             .setColor('#e42643')
-            .setTitle('React with what applys to you!')
-            .setDescription('Choosing this will let other members know who you are and be appreciative of your timezones')
                  + `${NorthAmericanEmoji} for North American\n`
                  + `${SouthAmericanEmoji} for South American\n`
                  + `${EuropeanEmoji} for European\n`
