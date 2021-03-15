@@ -30,7 +30,7 @@ module.exports = {
                  + `${AsianEmoji} for Asian\n`
                  + `${AfricanEmoji} for African\n`
                  + `${OceanicEmoji} for Oceanic\n`
-                 + `${AntarcticanEmoji} for Antarctican\n`);
+                 + `${AntarcticanEmoji} for Antarctican\n`;
       
  
         let messageEmbed = await message.channel.send(embed);
