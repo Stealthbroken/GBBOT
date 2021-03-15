@@ -22,6 +22,8 @@ module.exports = {
  
         let embed = new Discord.MessageEmbed()
             .setColor('#e42643')
+            .setTitle('Pick what applies to you')
+            .setDescription('Pick! Pick!\n')
                  + `${NorthAmericanEmoji} for North American\n`
                  + `${SouthAmericanEmoji} for South American\n`
                  + `${EuropeanEmoji} for European\n`
