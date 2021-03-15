@@ -60,7 +60,9 @@ client.on('message', message =>{
     }  else if(command === 'mcserver'){
         client.commands.get('mcserver').execute(client, message, args, Discord)
     }  else if(command === 'reactionrole'){
-        client.commands.get('reactionrole').execute( message, args, Discord, client)
+        client.commands.get('reactionrole').execute(client, message, args, Discord)
+    }  else if(command === 'genderreactionrole'){
+        client.commands.get('genderreactionrole').execute(client, message, args, Discord)
     }
 
 
