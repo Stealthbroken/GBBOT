@@ -63,6 +63,6 @@ client.on('message', message =>{
         client.commands.get('reactionrole').execute(client, message, args, Discord, client)
 
 
-});
+};
  
 client.login('ODAxMTk5NTUzMTIyMjcxMzIy.YAdNOw.tzO2sYBW8vjWmVL4bM9sS9xNrro');
