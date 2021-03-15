@@ -16,7 +16,7 @@ module.exports = {
         let embed = new Discord.MessageEmbed()
             .setColor('#e42643')
             .setTitle('React with what applys to you!')
-            .setDescription('Choosing this will let other members know who you are and be appreciative of your timezones!'
+            .setDescription('Choosing this will let other members know what gender you are!\n'
                  + `${BoyEmoji} If you're a boy\n`
                  + `${GirlEmoji} if you're a girl\n`
                  + `${AttackHelicopterEmoji} if you're an attack helicopter (lol)`);
