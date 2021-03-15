@@ -25,12 +25,12 @@ module.exports = {
             .setTitle('React with what applys to you!')
             .setDescription('Choosing this will let other members know who you are and be appreciative of your timezones!'
                  + `${NorthAmericanEmoji} for North American\n`
-                 + `${SouthAmericanEmoji} for South American`);
-                 + `${EuropeanEmoji} for European`;
-                 + `${AsianEmoji} for Asian`;
-                 + `${AfricanEmoji} for African`;
-                 + `${OceanicEmoji} for Oceanic`;
-                 + `${AntarcticanEmoji} for Antarctican`;
+                 + `${SouthAmericanEmoji} for South American`
+                 + `${EuropeanEmoji} for European`
+                 + `${AsianEmoji} for Asian`
+                 + `${AfricanEmoji} for African`
+                 + `${OceanicEmoji} for Oceanic`
+                 + `${AntarcticanEmoji} for Antarctican`);
       
  
         let messageEmbed = await message.channel.send(embed);
