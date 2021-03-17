@@ -65,7 +65,7 @@ client.on('message', message =>{
     }  else if(command === 'genderreactionrole'){
         client.commands.get('genderreactionrole').execute(client, message, args, Discord)
     }  else if(command === 'suggest'){
-        client.commands.get('suggest').execute(message, args, cmd, client, Discord)
+        client.commands.get('suggest').execute(message, args, client, Discord)
     }
 
 
