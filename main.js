@@ -30,7 +30,7 @@ client.once('ready', () => {
 //})
 
 if (message.mentions.users.has(client.user.id) && !message.author.bot) {
-    message.reply(`my prefix here is ${prefix}`)
+    messages.reply(`my prefix here is ${prefix}`)
     return
   };
  
