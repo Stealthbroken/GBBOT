@@ -19,6 +19,10 @@ for(const file of commandFiles){
  
 client.once('ready', () => {
     console.log('GamingBois is Online!');
+    bot.user.setActivity("Do *help for help", {
+        type:"ONLINE",
+        url: "https://www.gamingbois.online"
+    });
     //memberCounter(client);
 });
 
@@ -28,7 +32,6 @@ client.once('ready', () => {
     //guildMember.roles.add(welcomeRole);
     //guildMember.guild.channels.cache.get('801446262712827944').send(`Welcome <@${guildMember.user.id}> to the best server!`)
 //})
-
  
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
@@ -68,10 +71,5 @@ client.on('message', message =>{
 
 
 });
-
-if (message.mentions.users.has(client.user.id) && !message.author.bot) {
-    message.reply(`my prefix here is *`)
-    return
-  };
  
 client.login('ODAxMTk5NTUzMTIyMjcxMzIy.YAdNOw.tzO2sYBW8vjWmVL4bM9sS9xNrro');
