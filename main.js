@@ -31,7 +31,7 @@ client.once('ready', () => {
 
 client.on('message', (message) => {
     if (message.content.includes('<@801199553122271322>')) {
-      message.reply(`my prefix here is ${prefix}`)
+      message.reply(`my prefix here is *`)
       return
     };
   });
