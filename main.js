@@ -19,7 +19,7 @@ for(const file of commandFiles){
  
 client.once('ready', () => {
     console.log('GamingBois is Online!');
-    client.user.setActivity('*help for help', { type: 'ONLINE' })
+    client.user.setActivity('*help for help', { type: 'WATCHING' })
     //memberCounter(client);
 });
 
