@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client({partials: ["MESSAGE", "CHANNEL", "REACTION" ]});
  
 const prefix = '*';
- 
+const args = message.content.trim().split(/ +/g); const cmd = args.shift().toLowerCase();
 const fs = require('fs');
  
 //const memberCounter = require('./counters/member-counter');
