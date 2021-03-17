@@ -19,7 +19,7 @@ for(const file of commandFiles){
  
 client.once('ready', () => {
     console.log('GamingBois is Online!');
-    client.user.setActivity('*help for help', { type: 'PLAYING' })
+    client.user.setActivity('discord.js', { type: 'ONLINE' })
     //memberCounter(client);
 });
 
@@ -64,6 +64,8 @@ client.on('message', message =>{
         client.commands.get('reactionrole').execute(client, message, args, Discord)
     }  else if(command === 'genderreactionrole'){
         client.commands.get('genderreactionrole').execute(client, message, args, Discord)
+    }  else if(command === 'suggest'){
+        client.commands.get('suggest').execute(message, args, cmd, client, Discord)
     }
 
 
