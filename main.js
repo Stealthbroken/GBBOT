@@ -19,11 +19,7 @@ for(const file of commandFiles){
  
 client.once('ready', () => {
     console.log('GamingBois is Online!');
-    client.user.setActivity("with depression", {
-    type: "STREAMING",
-    url: "https://www.gamingbois.online"
-});
-    });
+    client.user.setActivity('discord.js', { type: 'WATCHING' })
     //memberCounter(client);
 });
 
