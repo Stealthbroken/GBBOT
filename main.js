@@ -29,12 +29,6 @@ client.once('ready', () => {
     //guildMember.guild.channels.cache.get('801446262712827944').send(`Welcome <@${guildMember.user.id}> to the best server!`)
 //})
 
-client.on('message', (message) => {
-    if (message.content.includes('<@801199553122271322>')) {
-      message.reply(`my prefix here is *`)
-      return
-    };
-  });
  
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
@@ -74,5 +68,10 @@ client.on('message', message =>{
 
 
 });
+
+if (message.mentions.users.has(client.user.id) && !message.author.bot) {
+    message.reply(`my prefix here is *`)
+    return
+  };
  
 client.login('ODAxMTk5NTUzMTIyMjcxMzIy.YAdNOw.tzO2sYBW8vjWmVL4bM9sS9xNrro');
