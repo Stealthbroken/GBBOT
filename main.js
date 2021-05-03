@@ -70,4 +70,4 @@ client.on('message', message =>{
 
 });
  
-client.login('ODAxMTk5NTUzMTIyMjcxMzIy.YAdNOw.tzO2sYBW8vjWmVL4bM9sS9xNrro');
+client.login('Not so Fast! You cant have access to something like this, when you are done with the code I can look over it and see if it is ok! ');
